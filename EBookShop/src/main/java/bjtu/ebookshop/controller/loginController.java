@@ -9,6 +9,11 @@ import javax.servlet.http.HttpSession;
 @Controller
 public class loginController {
 
+    @RequestMapping("/login")
+    public String tologinpage(){
+        return "login";
+    }
+
     @RequestMapping(method = RequestMethod.POST, path= "/user/login")
     public String login(@RequestParam("username") String username,
                         @RequestParam("password") String password,

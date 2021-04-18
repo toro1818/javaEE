@@ -1,7 +1,9 @@
 package bjtu.ebookshop.controller;
 
 import bjtu.ebookshop.entity.Book;
+import bjtu.ebookshop.entity.Person;
 import bjtu.ebookshop.service.IBookService;
+import bjtu.ebookshop.service.IPersonService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
