@@ -4,84 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aefee8ad-79db-494f-9e41-bb8985cd6003" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../EBookShop/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EBookShop/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EBookShop/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EBookShop/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EBookShop/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EBookShop/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EBookShop/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EBookShop/src/main/java/bjtu/ebookshop/EBookShopApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EBookShop/src/main/java/bjtu/ebookshop/config/MyMvcConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EBookShop/src/main/java/bjtu/ebookshop/config/securityConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EBookShop/src/main/java/bjtu/ebookshop/controller/BooksController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EBookShop/src/main/java/bjtu/ebookshop/controller/PersonController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EBookShop/src/main/java/bjtu/ebookshop/controller/indexController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EBookShop/src/main/java/bjtu/ebookshop/controller/loginController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EBookShop/src/main/java/bjtu/ebookshop/controller/test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EBookShop/src/main/java/bjtu/ebookshop/entity/Book.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EBookShop/src/main/java/bjtu/ebookshop/entity/Person.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EBookShop/src/main/java/bjtu/ebookshop/entity/UserInfo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EBookShop/src/main/java/bjtu/ebookshop/repository/BooksRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EBookShop/src/main/java/bjtu/ebookshop/repository/PersonRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EBookShop/src/main/java/bjtu/ebookshop/repository/UserInfoRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EBookShop/src/main/java/bjtu/ebookshop/security/MyAuthenticationProvider.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EBookShop/src/main/java/bjtu/ebookshop/security/PasswordEncoderImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EBookShop/src/main/java/bjtu/ebookshop/service/BookService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EBookShop/src/main/java/bjtu/ebookshop/service/IBookService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EBookShop/src/main/java/bjtu/ebookshop/service/IPersonService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EBookShop/src/main/java/bjtu/ebookshop/service/PersonService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EBookShop/src/main/java/bjtu/ebookshop/service/UserInfoService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EBookShop/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EBookShop/src/main/resources/static/css/admin_login.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EBookShop/src/main/resources/static/css/common.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EBookShop/src/main/resources/static/css/main.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EBookShop/src/main/resources/static/images/login/admin-login-btnbg.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EBookShop/src/main/resources/static/images/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EBookShop/src/main/resources/static/images/onCorrect.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EBookShop/src/main/resources/static/images/onError.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EBookShop/src/main/resources/static/images/onFocus.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EBookShop/src/main/resources/static/images/onShow.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EBookShop/src/main/resources/static/images/tab-thbg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EBookShop/src/main/resources/templates/bookList.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EBookShop/src/main/resources/templates/edit.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EBookShop/src/main/resources/templates/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EBookShop/src/main/resources/templates/insert.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EBookShop/src/main/resources/templates/login.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EBookShop/src/main/resources/templates/system.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EBookShop/src/test/java/bjtu/ebookshop/EBookShopApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EBookShop/src/test/java/bjtu/ebookshop/controller/BooksControllerTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EBookShop/src/test/java/bjtu/ebookshop/controller/indexControllerTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EBookShop/src/test/java/bjtu/ebookshop/controller/loginControllerTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EBookShop/src/test/java/bjtu/ebookshop/service/BookServiceTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EbookShopFront/ebookshopfront/src/components/System.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../EbookShopFront/ebookshopfront/src/components/System.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bjtu/edu/ebookshoprestful/Security/JWTAuthenticationEntryPoint.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bjtu/edu/ebookshoprestful/Security/JWTAuthenticationFilter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bjtu/edu/ebookshoprestful/Security/JWTAuthorizationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjtu/edu/ebookshoprestful/Security/JWTAuthorizationFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bjtu/edu/ebookshoprestful/Security/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjtu/edu/ebookshoprestful/Security/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bjtu/edu/ebookshoprestful/Utils/JwtTokenUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjtu/edu/ebookshoprestful/Utils/JwtTokenUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bjtu/edu/ebookshoprestful/config/MyWebConfigurer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjtu/edu/ebookshoprestful/config/MyWebConfigurer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bjtu/edu/ebookshoprestful/controller/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjtu/edu/ebookshoprestful/controller/BookController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bjtu/edu/ebookshoprestful/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjtu/edu/ebookshoprestful/controller/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bjtu/edu/ebookshoprestful/entity/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjtu/edu/ebookshoprestful/entity/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bjtu/edu/ebookshoprestful/entity/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjtu/edu/ebookshoprestful/entity/Role.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bjtu/edu/ebookshoprestful/entity/UserInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjtu/edu/ebookshoprestful/entity/UserInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bjtu/edu/ebookshoprestful/repository/BooksRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjtu/edu/ebookshoprestful/repository/BooksRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bjtu/edu/ebookshoprestful/repository/RoleRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjtu/edu/ebookshoprestful/repository/RoleRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bjtu/edu/ebookshoprestful/repository/UsersRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjtu/edu/ebookshoprestful/repository/UsersRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bjtu/edu/ebookshoprestful/service/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjtu/edu/ebookshoprestful/service/BookService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bjtu/edu/ebookshoprestful/service/IBookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjtu/edu/ebookshoprestful/service/IBookService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bjtu/edu/ebookshoprestful/service/IRoleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjtu/edu/ebookshoprestful/service/IRoleService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bjtu/edu/ebookshoprestful/service/IUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjtu/edu/ebookshoprestful/service/IUserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bjtu/edu/ebookshoprestful/service/RoleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjtu/edu/ebookshoprestful/service/RoleService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bjtu/edu/ebookshoprestful/service/UserDetailServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjtu/edu/ebookshoprestful/service/UserDetailServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bjtu/edu/ebookshoprestful/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bjtu/edu/ebookshoprestful/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/bjtu/edu/ebookshoprestful/controller/BookControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/bjtu/edu/ebookshoprestful/controller/BookControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/bjtu/edu/ebookshoprestful/service/BookServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/bjtu/edu/ebookshoprestful/service/BookServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../开发文档.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../开发文档.pdf" beforeDir="false" />
-    </list>
+    <list default="true" id="aefee8ad-79db-494f-9e41-bb8985cd6003" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -120,7 +43,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java/bjtu/edu/ebookshoprestful" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/bjtu/edu/ebookshoprestful" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/back" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -266,7 +189,7 @@
       <workItem from="1621501531532" duration="14134000" />
       <workItem from="1621521116486" duration="126000" />
       <workItem from="1621521292141" duration="2971000" />
-      <workItem from="1621560667011" duration="8957000" />
+      <workItem from="1621560667011" duration="9604000" />
     </task>
     <servers />
   </component>
