@@ -1,12 +1,17 @@
 package bjtu.edu.ebookshoprestful.service;
 
 import bjtu.edu.ebookshoprestful.entity.Role;
+import bjtu.edu.ebookshoprestful.repository.RoleRepository;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
 
 @Service
 public class RoleService implements IRoleService{
+    @Autowired
+    RoleRepository roleRepository;
+
     @Override
     public List<Role> findALL() {
         return null;
@@ -14,7 +19,7 @@ public class RoleService implements IRoleService{
 
     @Override
     public Role findOne(Integer id) {
-        return null;
+        return roleRepository.findById(id).orElse(null);
     }
 
     @Override

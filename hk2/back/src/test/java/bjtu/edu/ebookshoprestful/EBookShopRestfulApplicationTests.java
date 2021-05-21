@@ -5,6 +5,7 @@ import bjtu.edu.ebookshoprestful.repository.RoleRepository;
 import bjtu.edu.ebookshoprestful.repository.UsersRepository;
 import bjtu.edu.ebookshoprestful.service.BookService;
 import bjtu.edu.ebookshoprestful.service.IBookService;
+import bjtu.edu.ebookshoprestful.service.IUserService;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -64,6 +65,14 @@ class EBookShopRestfulApplicationTests {
     void getBooks(){
 
         System.out.println(bookService.findALL());
+    }
+
+    @Autowired
+    IUserService userService;
+    @Test
+    void testRegister(){
+        boolean flag=userService.findByName("admin1")==null ? true:false;
+        System.out.println(flag);
     }
 
 }
