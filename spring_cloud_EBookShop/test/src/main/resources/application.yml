@@ -1,0 +1,31 @@
+spring:
+  application:
+    name: test
+
+server:
+  port: 1112
+  servlet:
+    session:
+      cookie:
+        name: s1
+
+eureka:
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+  instance:
+    hostname: localhost
+    prefer-ip-address: true
+
+security:
+  oauth2:
+    client:
+      client-secret: 123
+      client-id: client1
+      user-authorization-uri: http://localhost:8762/oauth/authorize
+      access-token-uri: http://localhost:8762/oauth/token
+    resource:
+      user-info-uri: http://localhost:8401/hello
+
