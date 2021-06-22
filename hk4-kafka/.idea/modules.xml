@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/authorization_service/authorization_service.iml" filepath="$PROJECT_DIR$/authorization_service/authorization_service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/books_service/books_service.iml" filepath="$PROJECT_DIR$/books_service/books_service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/event_processor/event_processor.iml" filepath="$PROJECT_DIR$/event_processor/event_processor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gateway_service/gateway_service.iml" filepath="$PROJECT_DIR$/gateway_service/gateway_service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/orders_service/orders_service.iml" filepath="$PROJECT_DIR$/orders_service/orders_service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/registry_service/registry-service.iml" filepath="$PROJECT_DIR$/registry_service/registry-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/spring_cloud_EBookShop.iml" filepath="$PROJECT_DIR$/.idea/spring_cloud_EBookShop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test/test_service.iml" filepath="$PROJECT_DIR$/test/test_service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/users_service/users_service.iml" filepath="$PROJECT_DIR$/users_service/users_service.iml" />
+    </modules>
+  </component>
+</project>

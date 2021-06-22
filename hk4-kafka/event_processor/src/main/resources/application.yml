@@ -1,0 +1,30 @@
+spring:
+  application:
+    name: EVENT-PROCESSOR
+
+  kafka:
+    producer:
+      bootstrap-servers: 9092
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.springframework.kafka.support.serializer..JsonSerializer
+
+    consumer:
+      auto-offset-reset: earliest
+      bootstrap-servers: 9092
+      group-id: group-id
+      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      properties:
+        spring:
+          json:
+            trusted:
+              packages: '*'
+      value-deserializer: org.springframework.kafka.support.serializer.JsonDeserializer
+
+    topic:
+      order: orderTopic
+      delivery: deliveryTopic
+      pay: payTopic
+
+server:
+  port: 8086
+

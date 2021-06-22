@@ -1,0 +1,64 @@
+server:
+  port: 8402
+spring:
+  application:
+    name: ORDERS-SERVICE
+
+  kafka:
+    producer:
+      bootstrap-servers: 9092
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.springframework.kafka.support.serializer..JsonSerializer
+
+      consumer:
+        auto-offset-reset: earliest
+        bootstrap-servers: 9092
+        group-id: group-id
+        key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+        properties:
+          spring:
+            json:
+              trusted:
+                packages: '*'
+        value-deserializer: org.springframework.kafka.support.serializer.JsonDeserializer
+
+      topic:
+        order: orderTopic
+        delivery: deliveryTopic
+        pay: payTopic
+
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/microebookshop
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.cj.jdbc.Driver
+#  jpa:
+#    hibernate:
+#      ddl-auto: update
+#    show-sql: true
+#mybatis的相关配置
+mybatis:
+  #mapper配置文件
+  mapper-locations: classpath:mapper/*.xml
+  type-aliases-package: bjtu.edu.orders_service.entity
+  #开启驼峰命名
+  configuration:
+    map-underscore-to-camel-case: true
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/      #服务注册中信地址
+  instance:
+    hostname: localhost
+    prefer-ip-address: true         #将IP注册到服务注册中心
+
+#放开所有节点
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+
+
+

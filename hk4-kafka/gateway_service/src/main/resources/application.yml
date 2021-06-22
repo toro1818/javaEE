@@ -1,0 +1,68 @@
+spring:
+  application:
+    name: API-GATEWAY
+  cloud:
+    gateway:
+      metrics:
+        enabled: true
+      discovery:
+        locator:
+          enabled: true
+          lower-case-service-id: true
+      routes:
+        - id: BOOKS-SERVICE
+          uri: lb://BOOKS-SERVICE
+          predicates:
+            - Path=/api/books/**
+          filters:
+            - StripPrefix=1
+            - name: Hystrix
+              args:
+                name: fallbackcmd
+                fallbackUri: forward:/downgrade
+        - id: ORDERS-SERVICE
+          uri: lb://ORDERS-SERVICE
+          predicates:
+            - Path=/api/orders/**
+          filters:
+            - StripPrefix=1
+            - name: Hystrix
+              args:
+                name: fallbackcmd
+                fallbackUri: forward:/downgrade
+  security:
+    oauth2:
+      client:
+        provider:
+          keycloak:
+            issuer-uri: http://localhost:8080/auth/realms/Realm1
+        registration:
+          gateway:
+            authorization-grant-type: authorization_code
+            client-id: gateway
+            client-secret: f1bf159f-1f5e-4969-9062-db4da0d17420
+            provider: keycloak
+            redirect-uri: http://localhost:80/login/oauth2/code/spring-gateway
+            client-authentication-method: post
+            scope: openid,profile,email
+      resourceserver:
+        jwt:
+          jwk-set-uri: http://localhost:8080/auth/realms/Realm1/protocol/openid-connect/certs
+
+server:
+  port: 80
+
+eureka:
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+  instance:
+    hostname: localhost
+    prefer-ip-address: true
+
+
+
+
+
